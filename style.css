@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#canvas1 {
+  background: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#controls {
+  position: absolute;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+  left: 20px;
+  top: 20px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+button {
+  padding: 10px 40px;
+  border-radius: 30px;
+  width: 225px;
+  font-size: 20px;
+}
+
+label, input {
+  color: white;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 800px) {
+  #controls {
+    width: 200px;
+
+  }
+
+  button {
+    width: 180px;
+  }
+}
